@@ -1,0 +1,19 @@
+type: li
+innerHTML:
+  -
+    type: a
+    attribute:
+      href: rs:href
+    innerHTML: 
+      -
+        type: widget
+        settings:
+          enabled: rs:icon
+        data:
+          plugin: icons/bootstrap_v1_8_1
+          method: icon
+          data:
+            icon: rs:icon
+      -
+        type: span
+        innerHTML: rs:text

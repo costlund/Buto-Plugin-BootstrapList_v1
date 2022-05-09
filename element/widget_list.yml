@@ -1,0 +1,8 @@
+-
+  type: h5
+  innerHTML: data:title
+-
+  type: ul
+  attribute:
+    class: list-unstyled
+  innerHTML: rs:item
