@@ -1,5 +1,9 @@
-version: 1.0.0
+version: 1.0.1
 history:
+  1.0.1:
+    date: '2022-05-10'
+    title: 'Style'
+    description: 'Add style to icon.'
   1.0.0:
     date: '2022-05-09'
     title: 'First version'

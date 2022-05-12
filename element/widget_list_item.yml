@@ -14,6 +14,7 @@ innerHTML:
           method: icon
           data:
             icon: rs:icon
+            style: 'margin-right:4px;margin-top:-4px'
       -
         type: span
         innerHTML: rs:text
