@@ -17,6 +17,12 @@ class PluginBootstrapList_v1{
       $element_item = new PluginWfYml(__DIR__.'/element/'.__FUNCTION__.'_item.yml');
       $element_item->setByTag($i->get(), 'rs', true);
       /**
+       * attribute/onclick
+       */
+      if($i->get('onclick')){
+        $element_item->set('innerHTML/0/attribute/onclick', $i->get('onclick'));
+      }
+      /**
        * 
        */
       if($i->get('target')){
