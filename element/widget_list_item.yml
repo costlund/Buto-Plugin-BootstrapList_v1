@@ -16,5 +16,13 @@ innerHTML:
             icon: rs:icon
             style: 'margin-right:4px;margin-top:-4px'
       -
+        type: img
+        settings:
+          enabled: rs:img
+        attribute:
+          src: rs:img
+          style:
+            width: 20px
+      -
         type: span
         innerHTML: rs:text
