@@ -1,39 +1,77 @@
 # Buto-Plugin-BootstrapList_v1
-Render list with links.
 
-## Widget list
-```
-type: widget
+<p>List links in a Bootstrap lists or jumbotrons.</p>
+
+<a name="key_0"></a>
+
+## Settings
+
+
+
+<a name="key_1"></a>
+
+## Usage
+
+
+
+<a name="key_2"></a>
+
+## Pages
+
+
+
+<a name="key_3"></a>
+
+## Widgets
+
+
+
+<a name="key_3_0"></a>
+
+### widget_jumbotron
+
+<pre><code>plugin: bootstrap/list_v1
+method: jumbotron
 data:
-  plugin: bootstrap/list_v1
-  method: list
-  data:
-    title: 'Social media'
-    item: yml:/theme/[theme]/layout/navbar.yml:social_media
-```
+  title: 'Headline'
+  item:
+    -
+      icon: (icon from icons/bootstrap_v1_8_1)
+      img: (url to image)
+      href: (href)
+      text: (any text)
+      element: (element)</code></pre>
 
-## Data
-```
-social_media:
-  -
-    href: 'https://www.facebook.com/MyPage'
-    icon: facebook
-    text: Facebook
-    target: _blank
-  -
-    href: 'https://twitter.com/MyPage'
-    icon: twitter
-    text: Twitter
-    target: _blank
-  -
-    href: 'https://twitter.com/MyPage'
-    img: /path_to_image
-    text: Twitter
-    target: _blank
-```
+<a name="key_3_1"></a>
 
-### Icon
-Param icon (optional) is one of Bootstrap icons from plugin icons/bootstrap_v1_8_1.
+### widget_list
 
-### Image
-Param img (optional) to add an image.
+<pre><code>plugin: bootstrap/list_v1
+method: list
+data:
+  title: 'Headline'
+  item:
+    -
+      icon: (icon from icons/bootstrap_v1_8_1)
+      img: (url to image)
+      href: (href)
+      text: (any text)</code></pre>
+
+<a name="key_4"></a>
+
+## Event
+
+
+
+<a name="key_5"></a>
+
+## Construct
+
+
+
+<a name="key_6"></a>
+
+## Methods
+
+
+

@@ -1,0 +1,53 @@
+readme:
+  name: Buto-Plugin-BootstrapList_v1
+  description: |
+    List links in a Bootstrap lists or jumbotrons.
+  item:
+    -
+      name: Settings
+    -
+      name: Usage
+    -
+      name: Pages
+      item: {  }
+    -
+      name: Widgets
+      item:
+        -
+          name: widget_jumbotron
+          description: |
+            ````
+            plugin: bootstrap/list_v1
+            method: jumbotron
+            data:
+              title: 'Headline'
+              item:
+                -
+                  icon: (icon from icons/bootstrap_v1_8_1)
+                  img: (url to image)
+                  href: (href)
+                  text: (any text)
+                  element: (element)
+            ````
+        -
+          name: widget_list
+          description: |
+            ````
+            plugin: bootstrap/list_v1
+            method: list
+            data:
+              title: 'Headline'
+              item:
+                -
+                  icon: (icon from icons/bootstrap_v1_8_1)
+                  img: (url to image)
+                  href: (href)
+                  text: (any text)
+            ````
+    -
+      name: Event
+      item: {  }
+    -
+      name: Construct
+    -
+      name: Methods

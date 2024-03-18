@@ -1,0 +1,44 @@
+type: div
+attribute:
+  class: p-5 text-center bg-body-tertiary rounded-3 mb-3
+innerHTML:
+  -
+    type: div
+    settings:
+      enabled: rs:icon
+    innerHTML: 
+      -
+        type: widget
+        data:
+          plugin: icons/bootstrap_v1_8_1
+          method: icon
+          data:
+            icon: rs:icon
+            style: 'margin-right:4px;margin-top:-4px'
+  -
+    type: div
+    settings:
+      enabled: rs:img
+    innerHTML: 
+      -
+        type: img
+        attribute:
+          src: rs:img
+          style:
+            width: 20px
+  -
+    type: h2
+    innerHTML:
+      -
+        type: a
+        attribute:
+          href: rs:href
+        innerHTML: 
+          -
+            type: span
+            innerHTML: rs:text
+  -
+    type: div
+    settings:
+      enabled: rs:element
+    innerHTML: rs:element
