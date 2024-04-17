@@ -1,6 +1,6 @@
 type: div
 attribute:
-  class: p-5 text-center bg-body-tertiary rounded-3 mb-3
+  class: p-2 text-center bg-body-tertiary rounded-3 mb-3
 innerHTML:
   -
     type: div
@@ -27,7 +27,7 @@ innerHTML:
           style:
             height: 60px
   -
-    type: h2
+    type: h3
     innerHTML:
       -
         type: a

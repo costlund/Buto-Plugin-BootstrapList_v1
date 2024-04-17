@@ -1,5 +1,7 @@
 -
   type: h5
+  settings:
+    enabled: data:title
   innerHTML: data:title
 -
   type: ul
