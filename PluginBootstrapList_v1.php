@@ -9,6 +9,7 @@ class PluginBootstrapList_v1{
      * 
      */
     $data = new PluginWfArray($data['data']);
+    $data->set('item', wfSettings::getSettingsFromYmlString($data->get('item')));
     $element = new PluginWfYml(__DIR__.'/element/'.__FUNCTION__.'.yml');
     $element->setByTag($data->get(), 'data', true);
     $item = array();

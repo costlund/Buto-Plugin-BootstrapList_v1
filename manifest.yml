@@ -1,5 +1,9 @@
-version: 1.3.2
+version: 1.4.0
 history:
+  1.4.0:
+    date: '2024-05-29'
+    title: Item
+    description: 'Using method wfSettings::getSettingsFromYmlString form param item.'
   1.3.2:
     date: '2024-04-17'
     title: Jumbotron
